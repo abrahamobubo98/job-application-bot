@@ -1,11 +1,11 @@
 Job Application Bot for LinkedIn
+
 The Job Application Bot for LinkedIn is a Python-based automation tool designed to streamline the process of applying for multiple jobs on LinkedIn. This bot leverages the Selenium WebDriver along with other modules to automate the job application process, saving users valuable time and effort.
 
 Features
 Automated Job Applications: The bot automates the job application process on LinkedIn by navigating through the platform, searching for relevant job postings, and submitting applications.
-Customizable Search Criteria: Users can define their preferred job search criteria, including keywords, location, industry, and more, to narrow down the job listings that the bot interacts with.
+Search Criteria: Users can define their preferred job search criteria by entering their search criteria into LinkedIn, and the copying and pasting the link into the console when prompted.
 Resume and Cover Letter Integration: The bot can integrate users' resumes and cover letters into the application process, allowing for personalized and tailored applications for each job listing.
-Multiple Account Support: Users can configure multiple LinkedIn accounts within the bot, enabling them to switch between accounts and apply for jobs using different profiles.
 Logging and Error Handling: The bot logs its actions and provides error handling mechanisms to ensure smooth execution and enable easy troubleshooting.
 Requirements
 To run the Job Application Bot for LinkedIn, the following requirements must be met:
@@ -26,8 +26,10 @@ Run the bot using the following command:
 css
 Copy code
 python main.py
-Usage
+
+Usage:
 Launch the bot by running the main.py script.
+You will be prompted in the console to enter your LinkedIn email address, password and then to paste your search link.
 The bot will open a browser window and navigate to LinkedIn.
 Authenticate with your LinkedIn account(s) if prompted.
 The bot will start searching for job listings based on the provided criteria.
